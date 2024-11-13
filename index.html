@@ -7,13 +7,13 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Kadar Seid</h1>
+    <header class="header">
+      <h1 class="header__title">Kadar Seid</h1>
     </header>
     <main>
-      <section>
+      <section class="section">
         <h2>About Me</h2>
-        <p>
+        <p class="section__content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           accusantium iusto harum similique, saepe sapiente cum, a error aperiam
           itaque placeat dolore odit nostrum nobis, illo fuga vel? Tempora, ab
@@ -27,9 +27,9 @@
           expedita! Et earum suscipit cumque excepturi praesentium.
         </p>
       </section>
-      <section>
+      <section class="section section--accent">
         <h2>Skills</h2>
-        <ul>
+        <ul class="section__content skills__list">
           <li>Javascript</li>
           <li>CSS</li>
           <li>HTML</li>
@@ -37,11 +37,12 @@
           <li>Ruby</li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2>Projects</h2>
-        <ul>
-          <li>
+        <ul class="section__content project__list">
+          <li class="project__item">
             <img
+              class="project__image"
               src="https://images.unsplash.com/photo-1478059299873-f047d8c5fe1a?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <div>
@@ -51,8 +52,9 @@
             </div>
           </li>
 
-          <li>
+          <li class="project__item">
             <img
+              class="project__image"
               src="https://images.unsplash.com/photo-1478059299873-f047d8c5fe1a?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <div>
@@ -63,24 +65,24 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2>Contact Me</h2>
-        <form>
+        <form class="section__content contact__form">
           <div>
             <label>Name</label>
           </div>
-          <input type="text" />
+          <input class="input" type="text" />
           <div>
             <label>Email</label>
           </div>
-          <input type="email" />
+          <input class="input" type="email" />
           <div>
             <label>Message</label>
           </div>
-          <textarea></textarea>
+          <textarea class="input input--no-resize"></textarea>
         </form>
       </section>
-      <footer>Kadar Seid</footer>
+      <footer class="footer">Kadar Seid</footer>
     </main>
   </body>
 </html>
